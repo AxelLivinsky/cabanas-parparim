@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Complejo de Cabañas — Cabañas Parparim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cabañas cómodas y equipadas, rodeadas de naturaleza. Reserva fácil por WhatsApp.">
+
+  <!-- Fuente Google (puedes cambiarla) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- LIGHTBOX GALERÍA -->
+  <div class="lightbox" id="lightbox">
+   <div class="lightbox__inner">
+    <button class="lightbox__close" type="button" aria-label="Cerrar imagen">
+      ✕
+    </button>
+    <img src="" alt="" class="lightbox__image" id="lightbox-image">
+   </div>
+  </div>
+
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#inicio" class="logo">
+        <!-- Aquí luego pones tu logo como <img> si tenés -->
+        <span>Cabañas Parparim</span>
+      </a>
+
+      <button class="nav__toggle" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          src="videos/cabañas.mp4"
+          poster="img/fondo-poster.jpg"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1>Descansá en nuestras cabañas</h1>
+        <p>Un lugar tranquilo, rodeado de naturaleza, ideal para desconectar y disfrutar en familia.</p>
+        <div class="hero__actions">
+          <a
+            href="https://wa.me/5493515439909?text=Hola%20quiero%20hacer%20una%20consulta%20sobre%20las%20caba%C3%B1as"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener"
+          >
+            Reservar por WhatsApp
+          </a>
+          <a href="#galeria" class="btn btn--ghost">
+            Ver cabañas
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section">
+      <div class="section__inner">
+        <h2>Servicios</h2>
+        <p class="section__subtitle">
+          Todas las cabañas son para hasta un <strong>maximo de 5 perosnas</strong>. Todo lo que necesitás para una estadía cómoda y sin preocupaciones. Todos los servicios que no son mencionados es porque <strong>no estan incluidos</strong>.
+        </p>
+        <div class="features">
+          <div class="feature">
+            <div class="feature__icon">💳</div>
+            <h3>Medios de pago</h3>
+            <p>Aceptamos tarjetas de crédito, débito, transferencia y QR</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🐾</div>
+            <h3>Mascotas permitidas</h3>
+            <p>Se aceptan mascotas.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🏊‍</div>
+            <h3>Piscina cercada</h3>
+            <p>Pileta cercada al aire libre con solárium y sector de reposeras.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">📶</div>
+            <h3>WiFi</h3>
+            <p>Conexión a internet en todo el complejo.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">🍳</div>
+            <h3>Cocina equipada</h3>
+            <p>Cocina completa con vajilla, heladera, microondas y horno.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">🚗</div>
+            <h3>Cochera</h3>
+            <p>Cochera techada junto a cada cabaña.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🖼️</div>
+            <h3>Galería techada</h3>
+            <p>Todas las cabañas cuentan con su galería techada.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🔥</div>
+            <h3>Asadores</h3>
+            <p>Parrillas individuales y espacio para comer al aire libre.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">🌳</div>
+            <h3>Parque</h3>
+            <p>Amplio parque arbolado para disfrutar del aire libre.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🛝</div>
+            <h3>Juegos infantiles</h3>
+            <p>En el complejo se encuentran un tobogan, hamacas y el arenero.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🏐</div>
+            <h3>Cancha de voley</h3>
+            <p>El complejo cuenta con una cancha de voley.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">♨️</div>
+            <h3>Calefacción a gas</h3>
+            <p>Calefacción exelente para el invierno.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">❄️</div>
+            <h3>Aire Acondicionado</h3>
+            <p>Ideal para mantener fresca la cabaña en verano.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🧹</div>
+            <h3>Mucama opcional</h3>
+            <p>Servicio de mucama para las estadías duraderas.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">📺</div>
+            <h3>Televisión</h3>
+            <p>Servicio de TV por cable las 24hs.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🏙️</div>
+            <h3>Cercanía al centro</h3>
+            <p>Estamos a 6 cuadras de la calle principal de Mina Clavero.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🌊</div>
+            <h3>Cercanía al río</h3>
+            <p>Estamos a 3 cuadras del río.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🛏️</div>
+            <h3>Servicio de blanco<h3>
+            <p>Sábanas, toallones y toalla de mano al momento de su ingreso.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🛡️</div>
+            <h3>Seguridad</h3>
+            <p>Los propietarios viven en el complejo todo el año, lo que garantiza seguridad las 24hs.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🚿</div>
+            <h3>Baño privado completo</h3>    
+            <p>Todas las cabañas cuentan con baño con ducha, lavamanos, inodoro y videt.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">💧</div>
+            <h3>Agua caliente</h3>    
+            <p>Termotanque de alta recuperación en todas las cabañas.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🧭</div>
+            <h3>Guía de turismo</h3>    
+            <p>El propietario es guia de turismo certificado para que usted pueda consultar todo lo que desee sobre la zona.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="section section--light">
+      <div class="section__inner">
+        <h2>Galería</h2>
+        <p class="section__subtitle">
+          Un vistazo a los espacios del complejo.
+        </p>
+
+        <div class="gallery">
+          <img src="img/galeria-1.jpg" alt="Vista del parque" loading="lazy">
+          <img src="img/galeria-2.jpg" alt="Interior de la cabaña" loading="lazy">
+          <img src="img/galeria-3.jpg" alt="Pileta" loading="lazy">
+          <img src="img/galeria-4.jpg" alt="Cochera" loading="lazy">
+          <img src="img/galeria-5.jpg" alt="Habitación" loading="lazy">
+          <img src="img/galeria-6.jpg" alt="Vista aerea" loading="lazy">
+          <img src="img/galeria-7.jpg" alt="Entrada" loading="lazy">
+          <img src="img/fondo-poster.jpg" alt="Vista panorámica" loading="lazy">
+          <img src="img/galeria-9.jpg" alt="Cabaña" loading="lazy">
+          <img src="img/galeria-10.jpg" alt="Patio" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="section">
+      <div class="section__inner section__inner--two-cols">
+        <div>
+          <h2>Ubicación</h2>
+          <p class="section__subtitle">
+            Estamos a pocos minutos del centro de <strong>Mina Clavero</strong>, con fácil acceso y entorno natural.
+          </p>
+          <p>
+            Dirección completa: <br>
+            Calle 25 de Mayo Nº 1587, Mina Clavero, Córdoba, Argentina.
+          </p>
+          <a
+            href="https://www.google.com/maps/place/Caba%C3%B1as+PARPARIM/@-31.7301041,-65.0121457,18.25z/data=!4m9!3m8!1s0x942d2671d8f7715d:0x8ba15810142ca946!5m2!4m1!1i2!8m2!3d-31.7300364!4d-65.0125013!16s%2Fg%2F1tfznf6t?entry=ttu&g_ep=EgoyMDI1MTEzMC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--ghost"
+          >
+            Ver en Google Maps
+          </a>
+        </div>
+        <div class="map-wrapper">
+          <!-- Reemplaza el src con el embed real de tu Google Maps -->
+          <iframe
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.4823773410903!2d-65.01507622266158!3d-31.73003181148679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d2671d8f7715d%3A0x8ba15810142ca946!2sCaba%C3%B1as%20PARPARIM!5e0!3m2!1ses!2sar!4v1764790676078!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section--accent">
+      <div class="section__inner">
+        <h2>Contacto y reservas</h2>
+        <p class="section__subtitle">
+          Escribinos por WhatsApp o por correo, y te respondemos a la brevedad.
+        </p>
+
+        <div class="contact">
+          <div class="contact__item">
+            <h3>WhatsApp</h3>
+            <p>
+              <a
+                href="https://wa.me/5493515439909?text=Hola%20quiero%20consultar%20por%20disponibilidad"
+                target="_blank"
+                rel="noopener"
+                class="btn btn--whatsapp"
+              >
+                Chatear ahora
+              </a>
+            </p>
+          </div>
+
+          <div class="contact__item">
+            <h3>Teléfono</h3>
+            <p>+54 351 543-9909</p>
+          </div>
+
+          <div class="contact__item">
+            <h3>Email</h3>
+            <p>cabanasparparim@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>© <span id="year"></span> Cabañas Parparim. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a
+    href="https://wa.me/5493515439909?text=Hola%20me%20gustar%C3%ADa%20hacer%20una%20consulta"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener"
+    aria-label="Escribir por WhatsApp"
+  >
+    <img src="img/whatsapp.png" alt="WhatsApp" class="whatsapp-float__icon">
+  </a>
+  <a
+   href="https://www.instagram.com/cabanas_parparim"
+   class="instagram-float"
+   target="_blank"
+   rel="noopener"
+   aria-label="Ir a Instagram"
+  >
+   <img src="img/instagram.svg" alt="Instagram" class="instagram-float__icon">
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
